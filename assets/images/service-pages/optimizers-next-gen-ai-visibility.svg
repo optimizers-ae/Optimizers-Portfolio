@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="690" viewBox="0 0 720 690">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Optimizers dark-theme AI visibility card -->
+  <rect x="10" y="10" width="700" height="670" rx="28" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="635" rx="300" ry="170" fill="url(#glow)"/>
+
+  <!-- Eyebrow -->
+  <circle cx="48" cy="54" r="7" fill="#49A7D2"/>
+  <text x="70" y="61" fill="#49A7D2" font-family="Open Sans,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.5">NEXT-GEN VISIBILITY</text>
+
+  <!-- Search / answer comparison -->
+  <rect x="42" y="110" width="308" height="168" rx="22" fill="#0D1A21" stroke="#142832" stroke-width="1.5"/>
+  <text x="70" y="160" fill="#34444C" font-family="Open Sans,Arial,sans-serif" font-size="18">Google.com</text>
+  <rect x="70" y="185" width="250" height="11" rx="5.5" fill="#34444C"/>
+  <rect x="70" y="212" width="198" height="10" rx="5" fill="#26343B"/>
+  <rect x="70" y="239" width="145" height="10" rx="5" fill="#26343B"/>
+
+  <rect x="370" y="110" width="308" height="168" rx="22" fill="#0D1A21" stroke="#00B0D5" stroke-width="2"/>
+  <text x="398" y="159" fill="#49A7D2" font-family="Open Sans,Arial,sans-serif" font-size="18" font-weight="700">✦ AI Answer</text>
+  <rect x="398" y="187" width="250" height="11" rx="5.5" fill="#49A7D2"/>
+  <rect x="398" y="214" width="220" height="10" rx="5" fill="#49A7D2"/>
+  <rect x="398" y="241" width="170" height="10" rx="5" fill="#49A7D2"/>
+
+  <!-- Main message -->
+  <text x="360" y="344" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="27" font-weight="700">Be the Answer, Not Just a Link</text>
+  <text x="360" y="382" text-anchor="middle" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="19">Optimized for ChatGPT, Gemini &amp; Perplexity</text>
+
+  <!-- Platforms -->
+  <g font-family="Open Sans,Arial,sans-serif" font-size="16" font-weight="700">
+    <rect x="142" y="418" width="140" height="58" rx="13" fill="#101A20" stroke="#29404B" stroke-width="1.5"/>
+    <text x="212" y="453" text-anchor="middle" fill="#49A7D2">ChatGPT</text>
+
+    <rect x="298" y="418" width="124" height="58" rx="13" fill="#101A20" stroke="#29404B" stroke-width="1.5"/>
+    <text x="360" y="453" text-anchor="middle" fill="#49A7D2">Gemini</text>
+
+    <rect x="438" y="418" width="158" height="58" rx="13" fill="#101A20" stroke="#29404B" stroke-width="1.5"/>
+    <text x="517" y="453" text-anchor="middle" fill="#49A7D2">Perplexity</text>
+  </g>
+
+  <!-- Bottom AI metrics -->
+  <rect x="42" y="514" width="636" height="126" rx="22" fill="#0F1A2A" stroke="#26343B" stroke-width="1.5"/>
+  <g font-family="Open Sans,Arial,sans-serif" text-anchor="middle">
+    <text x="148" y="566" fill="#00B0D5" font-size="28" font-weight="700">AEO</text>
+    <text x="148" y="594" fill="#61747D" font-size="14">Answer Engine</text>
+
+    <text x="360" y="566" fill="#00B0D5" font-size="28" font-weight="700">GEO</text>
+    <text x="360" y="594" fill="#61747D" font-size="14">Generative Engine</text>
+
+    <text x="572" y="566" fill="#00B0D5" font-size="28" font-weight="700">LLM</text>
+    <text x="572" y="594" fill="#61747D" font-size="14">Model Ranking</text>
+  </g>
+
+  <circle cx="632" cy="650" r="5" fill="#7D0414"/>
+  <circle cx="650" cy="650" r="5" fill="#00B0D5"/>
+</svg>

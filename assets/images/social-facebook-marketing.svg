@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <defs>
+    <linearGradient id="fbAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <linearGradient id="buttonAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <radialGradient id="burgundyGlow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main editable card -->
+  <rect x="28" y="28" width="664" height="664" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="650" rx="300" ry="190" fill="url(#burgundyGlow)"/>
+
+  <!-- Facebook icon supplied by user, editable vector -->
+  <circle cx="91" cy="103" r="34" fill="url(#fbAccent)"/>
+  <g transform="translate(75 87) scale(1.25)" fill="#FFFFFF">
+    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z"/>
+  </g>
+
+  <text x="143" y="101" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="25" font-weight="700">Your Business Page</text>
+  <text x="143" y="128" fill="#93A1A8" font-family="Open Sans, Arial, sans-serif" font-size="17">facebook.com/yourbusiness</text>
+
+  <!-- Content message -->
+  <rect x="58" y="166" width="604" height="194" rx="22" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+  <text x="92" y="218" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="22">
+    <tspan x="92" dy="0">Consistent, on-brand content that</tspan>
+    <tspan x="92" dy="34">builds real engagement with UAE</tspan>
+    <tspan x="92" dy="34">audiences every week.</tspan>
+  </text>
+
+  <!-- Divider -->
+  <line x1="58" y1="393" x2="662" y2="393" stroke="#26343B" stroke-width="2"/>
+
+  <!-- Metrics -->
+  <g font-family="Open Sans, Arial, sans-serif">
+    <text x="151" y="446" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">12K</text>
+    <text x="151" y="471" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">REACH</text>
+
+    <text x="360" y="446" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">4.8K</text>
+    <text x="360" y="471" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">FOLLOWERS</text>
+
+    <text x="569" y="446" text-anchor="middle" fill="#00B0D5" font-size="30" font-weight="700">6.2%</text>
+    <text x="569" y="471" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">ENG. RATE</text>
+  </g>
+
+  <!-- CTA buttons -->
+  <rect x="58" y="500" width="292" height="70" rx="13" fill="url(#buttonAccent)"/>
+  <text x="204" y="543" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="700">Follow</text>
+
+  <rect x="370" y="500" width="292" height="70" rx="13" fill="#101A20" stroke="#293940" stroke-width="2"/>
+  <text x="516" y="543" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="600">Message</text>
+
+  <!-- Subtle Optimizers accent -->
+  <circle cx="632" cy="654" r="5" fill="#7D0414"/>
+  <circle cx="648" cy="654" r="5" fill="#00B0D5"/>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <linearGradient id="blueButton" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <radialGradient id="burgundyGlow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Editable main card -->
+  <rect x="28" y="28" width="664" height="664" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="650" rx="300" ry="190" fill="url(#burgundyGlow)"/>
+
+  <!-- Google header -->
+  <circle cx="91" cy="103" r="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+
+  <!-- Google icon supplied by user, editable vector -->
+  <g transform="translate(72 84) scale(1.58)" fill="#FFFFFF">
+    <path d="M21.35 11.1h-9.17v2.73h6.51c-.33 3.81-3.5 5.44-6.5 5.44C8.36 19.27 5 16.25 5 12c0-4.1 3.2-7.27 7.2-7.27c3.09 0 4.9 1.97 4.9 1.97L19 4.72S16.56 2 12.1 2C6.42 2 2.03 6.8 2.03 12c0 5.05 4.13 10 10.22 10c5.35 0 9.25-3.67 9.25-9.09c0-1.15-.15-1.81-.15-1.81"/>
+  </g>
+
+  <text x="143" y="101" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="25" font-weight="700">Google Search Results</text>
+  <text x="143" y="128" fill="#93A1A8" font-family="Open Sans, Arial, sans-serif" font-size="17">google.com/search</text>
+
+  <!-- Search field -->
+  <rect x="58" y="166" width="604" height="64" rx="32" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+  <circle cx="91" cy="198" r="8" fill="none" stroke="#93A1A8" stroke-width="2.5"/>
+  <line x1="97" y1="204" x2="103" y2="210" stroke="#93A1A8" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="118" y="204" fill="#93A1A8" font-family="Open Sans, Arial, sans-serif" font-size="16">digital marketing agency dubai</text>
+
+  <!-- Featured ad result -->
+  <rect x="58" y="253" width="604" height="140" rx="18" fill="#0D1A21" stroke="#00B0D5" stroke-width="2"/>
+
+  <rect x="78" y="274" width="42" height="28" rx="5" fill="#F7F7F5"/>
+  <text x="99" y="294" text-anchor="middle" fill="#060A0D" font-family="Open Sans, Arial, sans-serif" font-size="15" font-weight="700">Ad</text>
+
+  <rect x="135" y="279" width="270" height="9" rx="4.5" fill="#5C6C74"/>
+  <rect x="78" y="312" width="500" height="18" rx="5" fill="#00B0D5"/>
+  <rect x="78" y="344" width="565" height="9" rx="4.5" fill="#5C6C74"/>
+  <rect x="78" y="364" width="430" height="9" rx="4.5" fill="#26343B"/>
+
+  <!-- Organic results -->
+  <rect x="78" y="420" width="330" height="9" rx="4.5" fill="#34444C"/>
+  <rect x="78" y="440" width="465" height="9" rx="4.5" fill="#26343B"/>
+  <rect x="78" y="460" width="360" height="9" rx="4.5" fill="#1C2A31"/>
+
+  <!-- Divider -->
+  <line x1="58" y1="493" x2="662" y2="493" stroke="#26343B" stroke-width="2"/>
+
+  <!-- Metrics -->
+  <g font-family="Open Sans, Arial, sans-serif">
+    <text x="151" y="545" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">8.4%</text>
+    <text x="151" y="570" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">CTR</text>
+
+    <text x="360" y="545" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">AED 3.2</text>
+    <text x="360" y="570" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">AVG. CPC</text>
+
+    <text x="569" y="545" text-anchor="middle" fill="#00B0D5" font-size="30" font-weight="700">210</text>
+    <text x="569" y="570" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">CONVERSIONS</text>
+  </g>
+
+  <!-- CTA buttons -->
+  <rect x="58" y="600" width="292" height="70" rx="13" fill="url(#blueButton)"/>
+  <text x="204" y="643" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="700">Get Started</text>
+
+  <rect x="370" y="600" width="292" height="70" rx="13" fill="#101A20" stroke="#293940" stroke-width="2"/>
+  <text x="516" y="643" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="600">Free Audit</text>
+
+  <!-- Optimizers subtle accent -->
+  <circle cx="632" cy="674" r="5" fill="#7D0414"/>
+  <circle cx="648" cy="674" r="5" fill="#00B0D5"/>
+</svg>

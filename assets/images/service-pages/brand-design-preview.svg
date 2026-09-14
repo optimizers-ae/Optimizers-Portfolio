@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="429" height="464" viewBox="0 0 429 464" role="img" aria-labelledby="title desc">
+  <title id="title">Optimizers brand and design preview</title>
+  <desc id="desc">An editable dark-themed brand identity preview with typography, color palette, layout samples, and design software badges.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="14" y1="6" x2="418" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A0D"/>
+      <stop offset="0.56" stop-color="#0A1116"/>
+      <stop offset="1" stop-color="#071016"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientTransform="translate(419 29) rotate(140) scale(190 175)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00B0D5" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00B0D5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="burgundyGlow" cx="0" cy="0" r="1" gradientTransform="translate(26 450) rotate(-41) scale(235 210)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7D0414" stop-opacity="0.58"/>
+      <stop offset="0.48" stop-color="#7D0414" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="logoTile" x1="23" y1="63" x2="83" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1C24"/>
+      <stop offset="1" stop-color="#09141A"/>
+    </linearGradient>
+    <linearGradient id="cardCyan" x1="23" y1="143" x2="208" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1B23"/>
+      <stop offset="1" stop-color="#071319"/>
+    </linearGradient>
+    <linearGradient id="cardNeutral" x1="220" y1="143" x2="406" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10191E"/>
+      <stop offset="1" stop-color="#0B1419"/>
+    </linearGradient>
+    <linearGradient id="cardBurgundy" x1="23" y1="251" x2="208" y2="346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B0D12"/>
+      <stop offset="1" stop-color="#100D11"/>
+    </linearGradient>
+    <linearGradient id="cardPalette" x1="220" y1="251" x2="406" y2="346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D171D"/>
+      <stop offset="1" stop-color="#091319"/>
+    </linearGradient>
+    <linearGradient id="chipFill" x1="23" y1="359" x2="317" y2="438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1D25"/>
+      <stop offset="1" stop-color="#09151B"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="0.5" y="0.5" width="428" height="463" rx="18"/>
+    </clipPath>
+    <style>
+      .font { font-family: "Open Sans", Arial, Helvetica, sans-serif; }
+      .white { fill: #F7F7F5; }
+      .muted { fill: #93A1A8; }
+      .cyan { fill: #00B0D5; }
+    </style>
+  </defs>
+
+  <!-- Artboard -->
+  <g clip-path="url(#frameClip)">
+    <rect x="0.5" y="0.5" width="428" height="463" rx="18" fill="url(#background)"/>
+    <rect x="0.5" y="0.5" width="428" height="463" rx="18" fill="url(#cyanGlow)"/>
+    <rect x="0.5" y="0.5" width="428" height="463" rx="18" fill="url(#burgundyGlow)"/>
+    <path d="M0 374C80 345 163 370 215 464H0V374Z" fill="#7D0414" opacity="0.07"/>
+    <path d="M347 0H429V106C397 80 373 49 347 0Z" fill="#00B0D5" opacity="0.035"/>
+  </g>
+  <rect x="0.5" y="0.5" width="428" height="463" rx="18" fill="none" stroke="#26343B"/>
+
+  <!-- Section label -->
+  <circle cx="27" cy="34" r="3" fill="#00B0D5" filter="url(#softGlow)"/>
+  <text class="font" x="38" y="39" fill="#93A1A8" font-size="13" font-weight="700" letter-spacing="0.65">BRAND &amp; DESIGN PREVIEW</text>
+
+  <!-- Brand identity header -->
+  <rect x="23" y="63" width="60" height="60" rx="12" fill="url(#logoTile)" stroke="#2B3A41"/>
+  <g transform="translate(30 70.4) scale(.18)" fill="#00B0D5">
+    <path d="M85.43 53.45a6 6 0 0 0-10.86 0l-64 136a6 6 0 1 0 10.86 5.11L38.63 158h82.74l17.2 36.55a6 6 0 1 0 10.86-5.11ZM44.28 146L80 70.09L115.72 146ZM200 98c-12.21 0-21.71 3.28-28.23 9.74a6 6 0 0 0 8.46 8.52c4.18-4.15 10.84-6.26 19.77-6.26c14.34 0 26 9.87 26 22v7.24a40.36 40.36 0 0 0-26-9.24c-20.95 0-38 15.25-38 34s17.05 34 38 34a40.36 40.36 0 0 0 26-9.24V192a6 6 0 0 0 12 0v-60c0-18.75-17-34-38-34m0 88c-14.34 0-26-9.87-26-22s11.66-22 26-22s26 9.87 26 22s-11.66 22-26 22"/>
+  </g>
+  <text class="font white" x="100" y="87" font-size="19" font-weight="700">Your Brand</text>
+  <text class="font muted" x="100" y="111" font-size="15">Brand Identity System</text>
+  <path d="M101 121H177" stroke="#00B0D5" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Preview cards: primary mark -->
+  <rect x="23" y="143" width="185" height="95" rx="13" fill="url(#cardCyan)" stroke="#24353D"/>
+  <rect x="43" y="161" width="25" height="25" rx="5" fill="#00B0D5"/>
+  <rect x="43" y="196" width="116" height="10" rx="5" fill="#00B0D5" opacity="0.29"/>
+  <rect x="43" y="213" width="87" height="9" rx="4.5" fill="#00B0D5" opacity="0.16"/>
+  <circle cx="191" cy="157" r="2" fill="#00B0D5" opacity="0.78"/>
+
+  <!-- Preview cards: monochrome mark -->
+  <rect x="220" y="143" width="186" height="95" rx="13" fill="url(#cardNeutral)" stroke="#28363D"/>
+  <circle cx="253" cy="173.5" r="12.5" fill="#F7F7F5"/>
+  <rect x="241" y="196" width="109" height="10" rx="5" fill="#F7F7F5" opacity="0.24"/>
+  <rect x="241" y="213" width="80" height="9" rx="4.5" fill="#F7F7F5" opacity="0.12"/>
+  <path d="M385 154H394" stroke="#7D0414" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Preview cards: alternate mark -->
+  <rect x="23" y="251" width="185" height="95" rx="13" fill="url(#cardBurgundy)" stroke="#3B2229"/>
+  <rect x="43" y="269" width="25" height="25" rx="5" fill="#7D0414"/>
+  <rect x="43" y="303" width="102" height="10" rx="5" fill="#B72338" opacity="0.72"/>
+  <rect x="43" y="321" width="73" height="8" rx="4" fill="#B72338" opacity="0.37"/>
+  <circle cx="192" cy="332" r="2" fill="#7D0414" opacity="0.9"/>
+
+  <!-- Preview cards: palette -->
+  <rect x="220" y="251" width="186" height="95" rx="13" fill="url(#cardPalette)" stroke="#26353C"/>
+  <circle cx="247" cy="275" r="6.3" fill="#00B0D5"/>
+  <circle cx="264.5" cy="275" r="6.3" fill="#F7F7F5"/>
+  <circle cx="282" cy="275" r="6.3" fill="#7D0414"/>
+  <rect x="241" y="291" width="116" height="10" rx="5" fill="#93A1A8" opacity="0.38"/>
+  <rect x="241" y="308" width="87" height="9" rx="4.5" fill="#93A1A8" opacity="0.20"/>
+  <path d="M383 328L394 317" stroke="#00B0D5" stroke-width="1.5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M387 330L396 321" stroke="#00B0D5" stroke-width="1.5" stroke-linecap="round" opacity="0.22"/>
+
+  <!-- Software badges -->
+  <g class="font" font-size="13" font-weight="600">
+    <rect x="23" y="359" width="112" height="35" rx="17.5" fill="url(#chipFill)" stroke="#00B0D5" stroke-opacity="0.52"/>
+    <circle cx="42" cy="376.5" r="3.5" fill="#00B0D5"/>
+    <text x="53" y="381" fill="#F7F7F5">Illustrator</text>
+
+    <rect x="145" y="359" width="118" height="35" rx="17.5" fill="url(#chipFill)" stroke="#00B0D5" stroke-opacity="0.52"/>
+    <circle cx="164" cy="376.5" r="3.5" fill="#00B0D5"/>
+    <text x="175" y="381" fill="#F7F7F5">Photoshop</text>
+
+    <rect x="273" y="359" width="88" height="35" rx="17.5" fill="url(#chipFill)" stroke="#00B0D5" stroke-opacity="0.52"/>
+    <circle cx="292" cy="376.5" r="3.5" fill="#7D0414"/>
+    <text x="303" y="381" fill="#F7F7F5">Figma</text>
+
+    <rect x="23" y="404" width="105" height="35" rx="17.5" fill="url(#chipFill)" stroke="#00B0D5" stroke-opacity="0.52"/>
+    <circle cx="42" cy="421.5" r="3.5" fill="#00B0D5"/>
+    <text x="53" y="426" fill="#F7F7F5">InDesign</text>
+  </g>
+</svg>
