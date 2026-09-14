@@ -78,9 +78,7 @@
       </div>
     </div>
   </footer>
-<script src="<?= optimizers_url('assets/js/glowing-effect.js?v=2') ?>" defer></script>
-<script src="<?= optimizers_url('assets/js/eye-effect.js?v=eyes-centered-3') ?>" defer></script>
-<script src="<?= optimizers_url('assets/js/main.js?v=eyes-centered-3') ?>" defer></script>
+<script src="<?= optimizers_url('assets/js/main.js?v=services-clean-3') ?>" defer></script>
 
 <style id="optimizers-sticky-whatsapp">
 .opt-sticky-whatsapp{

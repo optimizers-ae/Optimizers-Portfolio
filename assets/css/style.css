@@ -614,36 +614,6 @@ body.hero-ready .op-hero__media img {
   pointer-events: none;
 }
 
-/* Multi-Node Optical Cursor Glow */
-.op-hero__glow-layer {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  overflow: hidden;
-  user-select: none;
-  opacity: 0;
-  mix-blend-mode: screen;
-  transition: opacity .35s ease;
-  will-change: opacity;
-}
-
-.op-glow-node,
-.op-glow-core,
-.op-glow-sparkle {
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 50%;
-  pointer-events: none;
-  will-change: transform;
-  transform: translate3d(-9999px, -9999px, 0);
-}
-
-.op-glow-sparkle {
-  filter: blur(3px);
-}
-
 .op-hero__content {
   position: absolute;
   z-index: 2;
@@ -1474,11 +1444,10 @@ body.hero-ready .op-hero__bottom {
   position: absolute;
   z-index: 3;
   left: 50%;
-  top: 50%;
-  width: 320px;
-  height: 320px;
+  top: 56%;
+  width: 310px;
+  height: 310px;
   transform: translate(-50%, -50%);
-  pointer-events: none;
 }
 
 .op-consult__orbit span {
@@ -1490,12 +1459,12 @@ body.hero-ready .op-hero__bottom {
 }
 
 .op-consult__orbit span:nth-child(2) {
-  inset: 52px;
+  inset: 56px;
   border-color: rgba(255,255,255,.2);
 }
 
 .op-consult__orbit span:nth-child(3) {
-  inset: 104px;
+  inset: 118px;
   border-color: rgba(255,255,255,.34);
   background: rgba(0,176,213,.2);
   box-shadow: 0 0 70px rgba(0,176,213,.48);
@@ -1527,118 +1496,6 @@ body.hero-ready .op-hero__bottom {
 @keyframes opRingBreathe {
   0%, 100% { transform: scale(1); opacity: .55; }
   50% { transform: scale(1.045); opacity: 1; }
-}
-
-/* =====================================
-   EYE EFFECT (MOUSE-FOLLOWING EYES)
-===================================== */
-
-.op-consult__visual--eyes {
-  position: relative;
-  isolation: isolate;
-  min-height: 660px;
-  overflow: hidden;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 20px;
-}
-
-.op-eyes-stage {
-  position: relative;
-  z-index: 4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 26px;
-  pointer-events: none;
-}
-
-.op-eyes-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  pointer-events: auto;
-  user-select: none;
-  filter: drop-shadow(0 16px 36px rgba(0, 0, 0, 0.55));
-}
-
-.op-eye {
-  position: relative;
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  background: #ffffff;
-  border: 4px solid #000000;
-  box-shadow: 
-    inset 0 4px 12px rgba(0, 0, 0, 0.18),
-    0 12px 28px rgba(0, 0, 0, 0.4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  will-change: transform;
-}
-
-.op-eye__pupil {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -16px;
-  margin-left: -16px;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: #000000;
-  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.15);
-  will-change: transform;
-  pointer-events: none;
-}
-
-.op-eye__highlight {
-  position: absolute;
-  right: 4px;
-  bottom: 4px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #ffffff;
-  box-shadow: 0 0 3px rgba(255, 255, 255, 0.9);
-  pointer-events: none;
-}
-
-.op-eyes-caption {
-  pointer-events: auto;
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  padding: 8px 20px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  color: rgba(255, 255, 255, 0.88);
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-}
-
-.op-eyes-caption__dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #00b0d5;
-  box-shadow: 0 0 10px #00b0d5;
-  animation: opEyePulse 2s ease-in-out infinite;
-}
-
-@keyframes opEyePulse {
-  0%, 100% { opacity: 0.45; transform: scale(0.9); }
-  50% { opacity: 1; transform: scale(1.2); }
 }
 
 .op-consult__form-panel {
@@ -1726,9 +1583,7 @@ body.hero-ready .op-hero__bottom {
   }
 
   .op-consult__visual {
-    min-height: 260px;
-    border-right: none;
-    border-bottom: 1px solid rgba(255,255,255,.08);
+    display: none;
   }
 }
 
