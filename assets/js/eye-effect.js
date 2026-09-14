@@ -44,6 +44,11 @@
     }
 
     function updatePupils(mouseX, mouseY) {
+      // Skip if eyes are hidden (e.g. on small screens)
+      if (leftCenter.right === 0 && leftCenter.bottom === 0) {
+        return;
+      }
+
       // If cursor is directly inside either eyeball, keep pupils from clipping
       if (isInside(leftCenter, mouseX, mouseY) || isInside(rightCenter, mouseX, mouseY)) {
         return;

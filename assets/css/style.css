@@ -1538,7 +1538,7 @@ body.hero-ready .op-hero__bottom {
   isolation: isolate;
   min-height: 660px;
   overflow: hidden;
-  display: flex !important;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 40px 20px;
@@ -1725,10 +1725,9 @@ body.hero-ready .op-hero__bottom {
     display: block;
   }
 
-  .op-consult__visual {
-    min-height: 260px;
-    border-right: none;
-    border-bottom: 1px solid rgba(255,255,255,.08);
+  .op-consult__visual,
+  .op-consult__visual--eyes {
+    display: none !important;
   }
 }
 
