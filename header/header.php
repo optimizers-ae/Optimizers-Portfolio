@@ -44,7 +44,7 @@ if (!function_exists('isNavActive')) {
   <meta name="description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8') ?>">
   <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
   <link rel="icon" type="image/svg+xml" href="<?= optimizers_url('assets/images/Optimizers-logo-fevicon.png') ?>">
-  <link rel="stylesheet" href="<?= optimizers_url('assets/css/style.css?v=packages-live-20260824') ?>">
+  <link rel="stylesheet" href="<?= optimizers_url('assets/css/style.css?v=eyes-centered-3') ?>">
   <link rel="stylesheet" href="<?= optimizers_url('assets/css/service-pages.css?v=4') ?>">
   <link rel="stylesheet" href="<?= optimizers_url('assets/css/cms-extensions.css?v=1') ?>">
   <?php if (!empty($isCompanyPage)): ?>

@@ -133,19 +133,49 @@ require __DIR__ . '/header/header.php';
 
   </section>
 
+
+  <!-- Contact Section  -->
   <section class="op-consult" id="about">
     <div class="op-consult__glow op-consult__glow--one" aria-hidden="true"></div>
     <div class="op-consult__glow op-consult__glow--two" aria-hidden="true"></div>
 
     <div class="op-consult__inner">
       <div class="op-consult__shell" data-reveal>
-        <div class="op-consult__visual" aria-hidden="true">
+        <!-- Dont remove just comment it for now  -->
+        <!-- <div class="op-consult__visual" aria-hidden="true">
           <div class="op-consult__visual-grid"></div>
           <div class="op-consult__orbit">
             <span></span>
             <span></span>
             <span></span>
             <img class="op-animated-logo op-animated-logo--visual" src="assets/images/optimizers-uae-animated-logo.svg" alt="">
+          </div>
+        </div> -->
+        <!-- Add new effect here  -->
+        <div class="op-consult__visual op-consult__visual--eyes" id="consultEyesVisual" aria-hidden="true">
+          <div class="op-consult__visual-grid"></div>
+          <div class="op-consult__orbit">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="op-eyes-stage">
+            <div class="op-eyes-container" id="mouseFollowingEyes">
+              <div class="op-eye" id="opEyeLeft">
+                <div class="op-eye__pupil">
+                  <div class="op-eye__highlight"></div>
+                </div>
+              </div>
+              <div class="op-eye" id="opEyeRight">
+                <div class="op-eye__pupil">
+                  <div class="op-eye__highlight"></div>
+                </div>
+              </div>
+            </div>
+            <div class="op-eyes-caption">
+              <span class="op-eyes-caption__dot"></span>
+              <span>All eyes on your growth</span>
+            </div>
           </div>
         </div>
 
