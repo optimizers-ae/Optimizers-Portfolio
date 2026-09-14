@@ -1,0 +1,135 @@
+PHP + SQL .gitignore
+=========================
+Environment / Secrets
+=========================
+
+.env
+.env.*
+!.env.example
+
+=========================
+Dependencies
+=========================
+
+/vendor/
+
+Composer
+
+composer.lock
+
+=========================
+Logs
+=========================
+
+*.log
+/logs/
+/storage/logs/
+
+=========================
+Cache / Temporary Files
+=========================
+
+/cache/
+/tmp/
+/temp/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+=========================
+Database
+=========================
+
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+Keep database structure/schema if needed
+
+!database/schema.sql
+!database/migrations/
+
+=========================
+User Uploads
+=========================
+
+/uploads/*
+!/uploads/.gitkeep
+
+/storage/app/public/*
+!/storage/app/public/.gitkeep
+
+=========================
+IDE / Editors
+=========================
+
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+=========================
+Operating System
+=========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+=========================
+PHPUnit
+=========================
+
+.phpunit.result.cache
+.phpunit.cache/
+
+=========================
+PHPStan / Psalm
+=========================
+
+.phpstan.cache
+.phpstan/
+.psalm/
+
+=========================
+Coverage
+=========================
+
+/coverage/
+
+=========================
+Build / Generated Files
+=========================
+
+/build/
+/dist/
+
+=========================
+Backup Files
+=========================
+
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+
+=========================
+Certificates / Private Keys
+=========================
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+=========================
+Local Server Files
+=========================
+
+/.htpasswd
+/.php_cs.cache
