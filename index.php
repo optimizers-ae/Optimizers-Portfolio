@@ -92,6 +92,7 @@ require __DIR__ . '/header/header.php';
     </div>
 
     <div class="op-hero__overlay" aria-hidden="true"></div>
+    <div class="op-hero__glow-layer" id="heroGlowLayer" aria-hidden="true"></div>
 
     <div class="op-hero__content">
       <div class="op-hero__brand">Optimizers UAE</div>
