@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+  <defs>
+    <linearGradient id="tiktokAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F1A2A"/>
+      <stop offset="1" stop-color="#060A0D"/>
+    </linearGradient>
+    <linearGradient id="buttonAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0F1A2A"/>
+      <stop offset="1" stop-color="#060A0D"/>
+    </linearGradient>
+    <radialGradient id="burgundyGlow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main editable card -->
+  <rect x="28" y="28" width="664" height="704" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="690" rx="300" ry="190" fill="url(#burgundyGlow)"/>
+
+  <!-- TikTok header -->
+  <circle cx="91" cy="103" r="34" fill="url(#tiktokAccent)"/>
+  <g transform="translate(74 86) scale(1.42)" fill="#FFFFFF">
+    <path d="M16.6 5.82s.51.5 0 0A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64c0 3.33 2.76 5.7 5.69 5.7c3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48"/>
+  </g>
+
+  <text x="143" y="101" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="25" font-weight="700">@yourbusiness</text>
+  <text x="143" y="128" fill="#93A1A8" font-family="Open Sans, Arial, sans-serif" font-size="17">tiktok.com/@yourbusiness</text>
+
+  <!-- Video grid -->
+  <g>
+    <rect x="58" y="166" width="188" height="250" rx="12" fill="#0F1A2A" stroke="#26343B" stroke-width="1.5"/>
+    <rect x="266" y="166" width="188" height="250" rx="12" fill="#0A1116" stroke="#26343B" stroke-width="1.5"/>
+    <rect x="474" y="166" width="188" height="250" rx="12" fill="#0F1A2A" stroke="#26343B" stroke-width="1.5"/>
+
+    <!-- Video progress / play accents -->
+    <rect x="58" y="166" width="188" height="4" rx="2" fill="#00B0D5" opacity=".75"/>
+    <rect x="266" y="166" width="188" height="4" rx="2" fill="#26343B"/>
+    <rect x="474" y="166" width="188" height="4" rx="2" fill="#7D0414" opacity=".8"/>
+
+    <path d="M78 390l0-16 13 8z" fill="#F7F7F5"/>
+    <path d="M286 390l0-16 13 8z" fill="#93A1A8"/>
+    <path d="M494 390l0-16 13 8z" fill="#F7F7F5"/>
+  </g>
+
+  <!-- Divider -->
+  <line x1="58" y1="444" x2="662" y2="444" stroke="#26343B" stroke-width="2"/>
+
+  <!-- Metrics -->
+  <g font-family="Open Sans, Arial, sans-serif">
+    <text x="151" y="494" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">118K</text>
+    <text x="151" y="519" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">LIKES</text>
+
+    <text x="360" y="494" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">14.5K</text>
+    <text x="360" y="519" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">FOLLOWERS</text>
+
+    <text x="569" y="494" text-anchor="middle" fill="#E24B5D" font-size="30" font-weight="700">9.3%</text>
+    <text x="569" y="519" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">ENG. RATE</text>
+  </g>
+
+  <!-- CTA buttons -->
+  <rect x="58" y="558" width="292" height="70" rx="13" fill="url(#buttonAccent)" stroke="#26343B" stroke-width="1"/>
+  <text x="204" y="601" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="700">Follow</text>
+
+  <rect x="370" y="558" width="292" height="70" rx="13" fill="#101A20" stroke="#293940" stroke-width="2"/>
+  <text x="516" y="601" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="600">Message</text>
+
+  <circle cx="632" cy="690" r="5" fill="#7D0414"/>
+  <circle cx="648" cy="690" r="5" fill="#00B0D5"/>
+</svg>

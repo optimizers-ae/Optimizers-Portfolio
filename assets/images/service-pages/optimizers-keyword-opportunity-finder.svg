@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#087C96"/><stop offset="1" stop-color="#00B0D5"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="1" cy="1" r="1">
+    <stop offset="0" stop-color="#7D0414" stop-opacity=".30"/><stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<rect x="28" y="28" width="664" height="704" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+<ellipse cx="650" cy="690" rx="300" ry="190" fill="url(#glow)"/>
+
+<!-- Header -->
+<rect x="58" y="62" width="68" height="68" rx="13" fill="url(#accent)"/>
+<!-- Editable search icon -->
+<circle cx="91" cy="94" r="13" fill="none" stroke="#F7F7F5" stroke-width="4"/>
+<line x1="101" y1="104" x2="110" y2="113" stroke="#F7F7F5" stroke-width="4" stroke-linecap="round"/>
+<text x="145" y="105" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="25" font-weight="700">Keyword Opportunity Finder</text>
+
+<!-- Search field -->
+<rect x="58" y="158" width="604" height="64" rx="17" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+<circle cx="91" cy="190" r="8" fill="none" stroke="#93A1A8" stroke-width="2.5"/>
+<line x1="97" y1="196" x2="103" y2="202" stroke="#93A1A8" stroke-width="2.5" stroke-linecap="round"/>
+<text x="118" y="196" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="17">best digital marketing agency dubai</text>
+
+<!-- Table headings -->
+<g font-family="Open Sans,Arial,sans-serif" font-size="14" font-weight="600" fill="#93A1A8">
+  <text x="82" y="260">KEYWORD</text>
+  <text x="405" y="260">VOLUME</text>
+  <text x="545" y="260">DIFFICULTY</text>
+</g>
+
+<!-- Keyword 1 -->
+<rect x="58" y="280" width="604" height="76" rx="14" fill="#0D1A21" stroke="#00B0D5" stroke-width="1.5"/>
+<text x="82" y="326" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="17" font-weight="600">marketing agency dubai</text>
+<text x="420" y="326" fill="#49A7D2" font-family="Open Sans,Arial,sans-serif" font-size="16">2.4K</text>
+<rect x="553" y="302" width="70" height="32" rx="16" fill="#178E68"/>
+<text x="588" y="323" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="13" font-weight="700">Low</text>
+
+<!-- Keyword 2 -->
+<rect x="58" y="374" width="604" height="76" rx="14" fill="#0A1116" stroke="#1C2A31" stroke-width="1.5"/>
+<text x="82" y="420" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="17" font-weight="600">social media agency uae</text>
+<text x="420" y="420" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="16">1.1K</text>
+<rect x="553" y="396" width="70" height="32" rx="16" fill="#D69A2D"/>
+<text x="588" y="417" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="13" font-weight="700">Med</text>
+
+<!-- Keyword 3 -->
+<rect x="58" y="468" width="604" height="76" rx="14" fill="#0A1116" stroke="#1C2A31" stroke-width="1.5"/>
+<text x="82" y="514" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="17" font-weight="600">seo services uae</text>
+<text x="420" y="514" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="16">880</text>
+<rect x="553" y="490" width="70" height="32" rx="16" fill="#D69A2D"/>
+<text x="588" y="511" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="13" font-weight="700">Med</text>
+
+<!-- Tags -->
+<g font-family="Open Sans,Arial,sans-serif" font-size="14" font-weight="600">
+  <rect x="64" y="580" width="176" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+  <text x="152" y="608" text-anchor="middle" fill="#49A7D2">Search Intent</text>
+  <rect x="252" y="580" width="191" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+  <text x="347.5" y="608" text-anchor="middle" fill="#49A7D2">Low Competition</text>
+  <rect x="455" y="580" width="170" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+  <text x="540" y="608" text-anchor="middle" fill="#49A7D2">High Volume</text>
+</g>
+
+<circle cx="632" cy="690" r="5" fill="#7D0414"/>
+<circle cx="650" cy="690" r="5" fill="#00B0D5"/>
+</svg>

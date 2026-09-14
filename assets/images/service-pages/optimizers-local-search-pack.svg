@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main Optimizers dark-theme card -->
+  <rect x="28" y="28" width="664" height="704" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="690" rx="300" ry="190" fill="url(#glow)"/>
+
+  <!-- Header: exact supplied location icon -->
+  <rect x="58" y="62" width="68" height="68" rx="13" fill="url(#accent)"/>
+  <g transform="translate(75 79) scale(1.45)" fill="#FFFFFF">
+    <path d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/>
+  </g>
+  <text x="145" y="105" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="25" font-weight="700">Local Search Pack</text>
+
+  <!-- Local map -->
+  <rect x="58" y="158" width="604" height="218" rx="22" fill="#0F1A2A" stroke="#26343B" stroke-width="1.5"/>
+
+  <!-- Map grid -->
+  <g stroke="#26343B" stroke-width="3" opacity=".9">
+    <path d="M58 215H662"/>
+    <path d="M58 302H662"/>
+    <path d="M214 158V376"/>
+    <path d="M520 158V376"/>
+    <path d="M150 158L285 376"/>
+    <path d="M555 158L420 376"/>
+  </g>
+
+  <!-- Location pin -->
+  <path d="M360 148
+           C333 148 315 168 315 194
+           C315 225 360 267 360 267
+           C360 267 405 225 405 194
+           C405 168 387 148 360 148Z"
+        fill="url(#accent)"/>
+  <circle cx="360" cy="193" r="12" fill="#F7F7F5"/>
+
+  <!-- Business result -->
+  <rect x="58" y="398" width="604" height="174" rx="20" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+  <text x="90" y="445" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="20" font-weight="700">Your Business Name</text>
+
+  <rect x="535" y="424" width="101" height="36" rx="18" fill="#0D2730"/>
+  <circle cx="553" cy="442" r="5" fill="#25B878"/>
+  <text x="588" y="447" text-anchor="middle" fill="#25B878" font-family="Open Sans,Arial,sans-serif" font-size="13" font-weight="600">Open Now</text>
+
+  <!-- Rating -->
+  <text x="90" y="480" fill="#F5A623" font-family="Arial,sans-serif" font-size="18">★★★★★</text>
+  <text x="177" y="480" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="14">4.9 (128)</text>
+
+  <!-- Listing details -->
+  <rect x="90" y="505" width="545" height="10" rx="5" fill="#34444C"/>
+  <rect x="90" y="529" width="420" height="10" rx="5" fill="#26343B"/>
+
+  <!-- Tags -->
+  <g font-family="Open Sans,Arial,sans-serif" font-size="14" font-weight="600">
+    <rect x="78" y="598" width="168" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+    <text x="162" y="626" text-anchor="middle" fill="#49A7D2">Google Maps</text>
+
+    <rect x="257" y="598" width="196" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+    <text x="355" y="626" text-anchor="middle" fill="#49A7D2">GMB Optimization</text>
+
+    <rect x="464" y="598" width="118" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+    <text x="523" y="626" text-anchor="middle" fill="#49A7D2">Reviews</text>
+  </g>
+
+  <circle cx="632" cy="690" r="5" fill="#7D0414"/>
+  <circle cx="650" cy="690" r="5" fill="#00B0D5"/>
+</svg>

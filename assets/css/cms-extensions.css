@@ -1,0 +1,419 @@
+/* =================================================================
+   cms-extensions.css — Optimizers UAE CMS Extensions
+   Adds styles for: case study filter selects, service detail pages,
+   navigation admin tab. Follows the existing dark/futuristic design
+   language of style.css without modifying it.
+   ================================================================= */
+
+/* ===================== CASE STUDY FILTER SELECTS ===================== */
+
+.op-case-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.op-case-filter-select {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: inherit;
+    padding: 8px 36px 8px 16px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2300b0d5' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    max-width: 200px;
+    backdrop-filter: blur(8px);
+}
+
+.op-case-filter-select:focus {
+    outline: none;
+    border-color: #00b0d5;
+    background-color: rgba(0, 176, 213, 0.06);
+}
+
+.op-case-filter-select.has-value {
+    border-color: #00b0d5;
+    color: #00b0d5;
+}
+
+.op-case-filter-select option {
+    background: #0b1217;
+    color: #e2e8f0;
+}
+
+.op-case-filter-clear {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #00b0d5;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 176, 213, 0.3);
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.op-case-filter-clear:hover {
+    background: rgba(0, 176, 213, 0.1);
+    border-color: #00b0d5;
+}
+
+.op-case-filter-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.35);
+    white-space: nowrap;
+}
+
+/* ===================== SERVICE DETAIL PAGE ===================== */
+
+.op-service-detail-page {
+    background: var(--bg, #07080b);
+    min-height: 100vh;
+    color: var(--text, #e2e8f0);
+}
+
+/* Breadcrumb */
+.op-service-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.op-service-breadcrumb a {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.op-service-breadcrumb a:hover {
+    color: #00b0d5;
+}
+
+.op-service-breadcrumb .sep {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.op-service-breadcrumb .current {
+    color: #00b0d5;
+}
+
+/* Hero */
+.op-service-detail-hero {
+    position: relative;
+    padding: clamp(80px, 12vw, 140px) 0 clamp(60px, 8vw, 100px);
+    overflow: hidden;
+}
+
+.op-service-detail-hero::before {
+    content: '';
+    position: absolute;
+    top: -30%;
+    right: -10%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(0, 176, 213, 0.08) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.op-service-detail-hero__inner {
+    position: relative;
+    z-index: 1;
+    max-width: 760px;
+}
+
+.op-service-detail-hero__category {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 14px;
+    border-radius: 999px;
+    background: rgba(0, 176, 213, 0.1);
+    border: 1px solid rgba(0, 176, 213, 0.25);
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #00b0d5;
+    margin-bottom: 20px;
+}
+
+.op-service-detail-hero__title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    margin: 0 0 20px;
+}
+
+.op-service-detail-hero__desc {
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 0 28px;
+}
+
+.op-service-detail-hero__sub-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 36px;
+}
+
+.op-service-detail-hero__sub-tag {
+    padding: 5px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Featured Image */
+.op-service-detail-image {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 80px;
+}
+
+.op-service-detail-image img {
+    width: 100%;
+    height: auto;
+    max-height: 480px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Full Description */
+.op-service-full-desc {
+    padding: 48px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.op-service-full-desc__inner {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.op-service-full-desc p {
+    font-size: 1rem;
+    line-height: 1.85;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 1.2em;
+}
+
+/* Features Grid */
+.op-service-features {
+    padding: 64px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.op-service-section-eyebrow {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #00b0d5;
+    margin-bottom: 10px;
+}
+
+.op-service-section-title {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0 0 48px;
+    letter-spacing: -0.02em;
+}
+
+.op-service-features__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.op-service-feature-card {
+    padding: 28px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.op-service-feature-card:hover {
+    border-color: rgba(0, 176, 213, 0.25);
+    transform: translateY(-2px);
+}
+
+.op-service-feature-card__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(0, 176, 213, 0.1);
+    border: 1px solid rgba(0, 176, 213, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: #00b0d5;
+    font-size: 1rem;
+}
+
+.op-service-feature-card__title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+/* Process Steps */
+.op-service-process {
+    padding: 64px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.op-service-process__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    counter-reset: process-counter;
+    max-width: 820px;
+}
+
+.op-service-process-step {
+    display: flex;
+    gap: 24px;
+    padding: 28px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+}
+
+.op-service-process-step:last-child {
+    border-bottom: none;
+}
+
+.op-service-process-step__num {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(229, 9, 20, 0.12);
+    border: 1px solid rgba(229, 9, 20, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 900;
+    color: #e50914;
+    letter-spacing: 0.05em;
+}
+
+.op-service-process-step__content {
+    flex: 1;
+}
+
+.op-service-process-step__title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.op-service-process-step__desc {
+    font-size: 0.85rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Benefits */
+.op-service-benefits {
+    padding: 64px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(0, 176, 213, 0.015);
+}
+
+.op-service-benefits__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+}
+
+.op-service-benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.op-service-benefit-item__icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(0, 176, 213, 0.1);
+    border: 1px solid rgba(0, 176, 213, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00b0d5;
+    font-size: 0.7rem;
+    margin-top: 1px;
+}
+
+.op-service-benefit-item__text {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.5;
+}
+
+/* Related Case Studies on Service Pages */
+.op-service-related-cases {
+    padding: 64px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .op-case-filter-select {
+        max-width: 100%;
+    }
+
+    .op-case-filter-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .op-service-features__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .op-service-benefits__grid {
+        grid-template-columns: 1fr;
+    }
+}

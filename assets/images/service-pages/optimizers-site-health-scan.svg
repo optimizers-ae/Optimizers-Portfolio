@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Optimizers dark-theme Site Health Scan card -->
+  <rect x="12" y="12" width="696" height="796" rx="28" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="740" rx="300" ry="170" fill="url(#glow)"/>
+
+  <!-- Header -->
+  <text x="44" y="70" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="25" font-weight="700">Site Health Scan</text>
+
+  <rect x="592" y="42" width="76" height="40" rx="20" fill="#0D2730"/>
+  <circle cx="609" cy="62" r="5" fill="#25B878"/>
+  <text x="638" y="68" text-anchor="middle" fill="#25B878" font-family="Open Sans,Arial,sans-serif" font-size="14" font-weight="700">Live</text>
+
+  <!-- Score summary -->
+  <rect x="44" y="110" width="632" height="178" rx="22" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+
+  <!-- Score ring -->
+  <circle cx="136" cy="199" r="62" fill="#101A20" stroke="#26343B" stroke-width="12"/>
+  <circle cx="136" cy="199" r="62" fill="none" stroke="url(#accent)" stroke-width="12"
+          stroke-linecap="round" stroke-dasharray="350 40" transform="rotate(-90 136 199)"/>
+  <text x="136" y="207" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="29" font-weight="700">92</text>
+
+  <text x="240" y="185" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="18">Overall technical score based on</text>
+  <text x="240" y="214" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="18">crawlability, speed &amp; indexing</text>
+
+  <!-- Audit checks -->
+  <g font-family="Open Sans,Arial,sans-serif">
+    <rect x="44" y="318" width="632" height="64" rx="15" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+    <circle cx="76" cy="350" r="20" fill="#25B878"/>
+    <path d="M67 350l6 6 11-13" fill="none" stroke="#F7F7F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="111" y="357" fill="#F7F7F5" font-size="18" font-weight="600">Site Speed &amp; Core Web Vitals</text>
+
+    <rect x="44" y="398" width="632" height="64" rx="15" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+    <circle cx="76" cy="430" r="20" fill="#25B878"/>
+    <path d="M67 430l6 6 11-13" fill="none" stroke="#F7F7F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="111" y="437" fill="#F7F7F5" font-size="18" font-weight="600">Crawlability &amp; Indexing</text>
+
+    <rect x="44" y="478" width="632" height="64" rx="15" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+    <circle cx="76" cy="510" r="20" fill="#25B878"/>
+    <path d="M67 510l6 6 11-13" fill="none" stroke="#F7F7F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="111" y="517" fill="#F7F7F5" font-size="18" font-weight="600">Schema Markup &amp; Sitemap</text>
+
+    <rect x="44" y="558" width="632" height="64" rx="15" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+    <circle cx="76" cy="590" r="20" fill="#25B878"/>
+    <path d="M67 590l6 6 11-13" fill="none" stroke="#F7F7F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="111" y="597" fill="#F7F7F5" font-size="18" font-weight="600">Mobile &amp; HTTPS Security</text>
+  </g>
+
+  <!-- CTA -->
+  <rect x="44" y="658" width="632" height="74" rx="16" fill="#0F1A2A" stroke="#26343B" stroke-width="1.5"/>
+  <text x="360" y="704" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="19" font-weight="700">Full Technical Audit + Fix Roadmap</text>
+
+  <circle cx="632" cy="770" r="5" fill="#7D0414"/>
+  <circle cx="650" cy="770" r="5" fill="#00B0D5"/>
+</svg>

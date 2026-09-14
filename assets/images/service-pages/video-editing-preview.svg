@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="454" height="549" viewBox="0 0 454 549" role="img" aria-labelledby="title desc">
+  <title id="title">Optimizers video editing preview</title>
+  <desc id="desc">An editable dark video editing illustration showing a raw clip transformed into a polished final edit, editing steps, and delivery statistics.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="8" y1="5" x2="447" y2="544" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A0D"/>
+      <stop offset="0.56" stop-color="#0A1116"/>
+      <stop offset="1" stop-color="#071016"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientTransform="translate(447 38) rotate(140) scale(210 190)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00B0D5" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00B0D5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="burgundyGlow" cx="0" cy="0" r="1" gradientTransform="translate(12 530) rotate(-42) scale(260 235)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7D0414" stop-opacity="0.58"/>
+      <stop offset="0.47" stop-color="#7D0414" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rawCard" x1="22" y1="71" x2="204" y2="253" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1D25"/>
+      <stop offset="1" stop-color="#08161D"/>
+    </linearGradient>
+    <linearGradient id="finalCard" x1="249" y1="71" x2="432" y2="253" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2A36"/>
+      <stop offset="0.62" stop-color="#0A202A"/>
+      <stop offset="1" stop-color="#130D12"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="72" y1="385" x2="382" y2="422" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1E26"/>
+      <stop offset="1" stop-color="#09161D"/>
+    </linearGradient>
+    <linearGradient id="stats" x1="22" y1="447" x2="432" y2="524" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B202A"/>
+      <stop offset="0.58" stop-color="#0A1B23"/>
+      <stop offset="1" stop-color="#120D12"/>
+    </linearGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="0.5" y="0.5" width="453" height="548" rx="18"/>
+    </clipPath>
+    <style>
+      .font { font-family: "Open Sans", Arial, Helvetica, sans-serif; }
+      .white { fill: #F7F7F5; }
+      .muted { fill: #93A1A8; }
+      .cyan { fill: #00B0D5; }
+    </style>
+  </defs>
+
+  <!-- Artboard -->
+  <g clip-path="url(#frameClip)">
+    <rect x="0.5" y="0.5" width="453" height="548" rx="18" fill="url(#background)"/>
+    <rect x="0.5" y="0.5" width="453" height="548" rx="18" fill="url(#cyanGlow)"/>
+    <rect x="0.5" y="0.5" width="453" height="548" rx="18" fill="url(#burgundyGlow)"/>
+    <path d="M0 438C103 399 189 442 238 549H0V438Z" fill="#7D0414" opacity="0.06"/>
+    <path d="M368 0H454V115C420 84 394 49 368 0Z" fill="#00B0D5" opacity="0.035"/>
+  </g>
+  <rect x="0.5" y="0.5" width="453" height="548" rx="18" fill="none" stroke="#26343B"/>
+
+  <!-- Section label -->
+  <circle cx="27" cy="36" r="5" fill="#00B0D5" filter="url(#softGlow)"/>
+  <text class="font cyan" x="41" y="41" font-size="14" font-weight="700" letter-spacing="0.75">RAW → POLISHED</text>
+
+  <!-- Raw video card -->
+  <rect x="22" y="71" width="182" height="182" rx="11" fill="url(#rawCard)" stroke="#18313C" stroke-opacity="0.72"/>
+  <rect x="102" y="154" width="21" height="17" rx="2.3" fill="none" stroke="#63757D" stroke-width="1.7" opacity="0.48"/>
+  <path d="M109 158L117 162.5L109 167Z" fill="#63757D" opacity="0.48"/>
+  <path d="M24 236C70 214 143 215 202 239V252H24V236Z" fill="#00B0D5" opacity="0.018"/>
+
+  <!-- Transformation arrow -->
+  <path d="M219 175H233M228 169L234 175L228 181" fill="none" stroke="#00B0D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Final video card -->
+  <rect x="249" y="71" width="183" height="182" rx="11" fill="url(#finalCard)" stroke="#00B0D5"/>
+  <circle cx="420" cy="83" r="3.8" fill="#00B0D5"/>
+  <circle cx="341" cy="162" r="24" fill="#00B0D5" opacity="0.055" filter="url(#softGlow)"/>
+  <path d="M336 154L348 162L336 170Z" fill="#00B0D5"/>
+  <path d="M251 230C302 201 374 210 430 234V252H251V230Z" fill="#7D0414" opacity="0.06"/>
+
+  <!-- Card captions -->
+  <text class="font muted" x="113" y="274" text-anchor="middle" font-size="11.5">Raw Clip</text>
+  <text class="font cyan" x="340.5" y="274" text-anchor="middle" font-size="11.5" font-weight="700">Final Edit</text>
+
+  <!-- Editing message -->
+  <text class="font white" x="227" y="323" text-anchor="middle" font-size="18" font-weight="700">Every Frame. Refined</text>
+  <text class="font muted" x="227" y="354" text-anchor="middle" font-size="15">Color Grade · Sound Design · Motion Graphics</text>
+
+  <!-- Workflow chips -->
+  <g class="font" font-size="13.5" font-weight="700" fill="#00B0D5">
+    <rect x="72" y="385" width="56" height="37" rx="9" fill="url(#chip)" stroke="#00B0D5" stroke-opacity="0.42"/>
+    <text x="100" y="408.5" text-anchor="middle">Cut</text>
+
+    <rect x="138" y="385" width="74" height="37" rx="9" fill="url(#chip)" stroke="#00B0D5" stroke-opacity="0.42"/>
+    <text x="175" y="408.5" text-anchor="middle">Grade</text>
+
+    <rect x="222" y="385" width="76" height="37" rx="9" fill="url(#chip)" stroke="#00B0D5" stroke-opacity="0.42"/>
+    <text x="260" y="408.5" text-anchor="middle">Sound</text>
+
+    <rect x="308" y="385" width="74" height="37" rx="9" fill="url(#chip)" stroke="#00B0D5" stroke-opacity="0.42"/>
+    <text x="345" y="408.5" text-anchor="middle">Export</text>
+  </g>
+
+  <!-- Delivery statistics -->
+  <rect x="22" y="447" width="410" height="77" rx="12" fill="url(#stats)" stroke="#243740"/>
+  <path d="M158.5 462V509M295.5 462V509" stroke="#31434B" opacity="0.72"/>
+  <g class="font">
+    <text class="cyan" x="47" y="485" font-size="21" font-weight="700">4K</text>
+    <text class="cyan" x="227" y="485" text-anchor="middle" font-size="21" font-weight="700">48h</text>
+    <text class="cyan" x="407" y="485" text-anchor="end" font-size="21" font-weight="700">3x</text>
+    <text class="muted" x="47" y="506" font-size="11">Export</text>
+    <text class="muted" x="227" y="506" text-anchor="middle" font-size="11">Delivery</text>
+    <text class="muted" x="407" y="506" text-anchor="end" font-size="11">Revisions</text>
+  </g>
+</svg>

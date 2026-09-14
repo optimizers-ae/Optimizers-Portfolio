@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="620" viewBox="0 0 720 620">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#087C96"/><stop offset="1" stop-color="#00B0D5"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="1" cy="1" r="1">
+    <stop offset="0" stop-color="#7D0414" stop-opacity=".28"/><stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- Main Optimizers dark-theme card -->
+<rect x="12" y="12" width="696" height="596" rx="28" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+<ellipse cx="640" cy="575" rx="250" ry="150" fill="url(#glow)"/>
+
+<!-- Material Symbols Link icon supplied by user -->
+<rect x="42" y="43" width="68" height="68" rx="13" fill="url(#accent)"/>
+<g transform="translate(57 58) scale(1.6)" fill="#FFFFFF">
+  <path d="M11 17H7q-2.075 0-3.537-1.463T2 12t1.463-3.537T7 7h4v2H7q-1.25 0-2.125.875T4 12t.875 2.125T7 15h4zm-3-4v-2h8v2zm5 4v-2h4q1.25 0 2.125-.875T20 12t-.875-2.125T17 9h-4V7h4q2.075 0 3.538 1.463T22 12t-1.463 3.538T17 17z"/>
+</g>
+<text x="130" y="83" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="25" font-weight="700">Backlink Authority Network</text>
+
+<!-- Network area -->
+<rect x="42" y="140" width="636" height="250" rx="22" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+
+<!-- Connection lines -->
+<g stroke="#087C96" stroke-width="3" opacity=".55">
+  <line x1="360" y1="265" x2="151" y2="181"/>
+  <line x1="360" y1="265" x2="568" y2="181"/>
+  <line x1="360" y1="265" x2="107" y2="282"/>
+  <line x1="360" y1="265" x2="612" y2="282"/>
+  <line x1="360" y1="265" x2="253" y2="354"/>
+  <line x1="360" y1="265" x2="467" y2="354"/>
+</g>
+
+<!-- Network nodes -->
+<g font-family="Open Sans,Arial,sans-serif" font-size="16">
+  <rect x="70" y="158" width="150" height="54" rx="12" fill="#101A20" stroke="#293940" stroke-width="1.5"/>
+  <text x="145" y="191" text-anchor="middle" fill="#F7F7F5">News Site</text>
+
+  <rect x="493" y="158" width="175" height="54" rx="12" fill="#101A20" stroke="#293940" stroke-width="1.5"/>
+  <text x="580" y="191" text-anchor="middle" fill="#F7F7F5">Industry Blog</text>
+
+  <rect x="43" y="255" width="150" height="54" rx="12" fill="#101A20" stroke="#293940" stroke-width="1.5"/>
+  <text x="118" y="288" text-anchor="middle" fill="#F7F7F5">Directory</text>
+
+  <rect x="527" y="255" width="151" height="54" rx="12" fill="#101A20" stroke="#293940" stroke-width="1.5"/>
+  <text x="602" y="288" text-anchor="middle" fill="#F7F7F5">Guest Post</text>
+
+  <rect x="220" y="331" width="111" height="54" rx="12" fill="#101A20" stroke="#293940" stroke-width="1.5"/>
+  <text x="275" y="364" text-anchor="middle" fill="#F7F7F5">Forum</text>
+
+  <rect x="389" y="331" width="139" height="54" rx="12" fill="#101A20" stroke="#293940" stroke-width="1.5"/>
+  <text x="458" y="364" text-anchor="middle" fill="#F7F7F5">PR Mention</text>
+</g>
+
+<!-- Central site -->
+<circle cx="360" cy="265" r="68" fill="#0D1A21" stroke="#26343B" stroke-width="10"/>
+<circle cx="360" cy="265" r="57" fill="url(#accent)"/>
+<text x="360" y="270" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="17" font-weight="700">Your Site</text>
+
+<!-- Bottom metrics -->
+<rect x="42" y="414" width="636" height="150" rx="20" fill="#0F1A2A" stroke="#26343B" stroke-width="1.5"/>
+<g font-family="Open Sans,Arial,sans-serif" text-anchor="middle">
+  <text x="148" y="470" fill="#00B0D5" font-size="29" font-weight="700">DA 45+</text>
+  <text x="148" y="500" fill="#93A1A8" font-size="14">Domain Authority</text>
+
+  <text x="360" y="470" fill="#00B0D5" font-size="29" font-weight="700">120+</text>
+  <text x="360" y="500" fill="#93A1A8" font-size="14">Quality Backlinks</text>
+
+  <text x="572" y="470" fill="#00B0D5" font-size="29" font-weight="700">100%</text>
+  <text x="572" y="500" fill="#93A1A8" font-size="14">White-Hat</text>
+</g>
+
+<circle cx="642" cy="579" r="5" fill="#7D0414"/>
+<circle cx="660" cy="579" r="5" fill="#00B0D5"/>
+</svg>

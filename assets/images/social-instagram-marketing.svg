@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+  <defs>
+    <linearGradient id="igAccent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#7D0414"/>
+      <stop offset=".48" stop-color="#D64B62"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <linearGradient id="buttonAccent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#7D0414"/>
+      <stop offset=".5" stop-color="#D64B62"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <radialGradient id="burgundyGlow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main editable card -->
+  <rect x="28" y="28" width="664" height="704" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="690" rx="300" ry="190" fill="url(#burgundyGlow)"/>
+
+  <!-- Instagram header -->
+  <circle cx="91" cy="103" r="34" fill="url(#igAccent)"/>
+  <rect x="77" y="89" width="28" height="28" rx="8" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+  <circle cx="91" cy="103" r="7" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+  <circle cx="101" cy="93" r="2.5" fill="#FFFFFF"/>
+
+  <text x="143" y="101" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="25" font-weight="700">yourbusiness</text>
+  <text x="143" y="128" fill="#93A1A8" font-family="Open Sans, Arial, sans-serif" font-size="17">instagram.com/yourbusiness</text>
+
+  <!-- Instagram content grid -->
+  <g>
+    <rect x="58" y="166" width="188" height="188" rx="12" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+    <rect x="266" y="166" width="188" height="188" rx="12" fill="#0F2028" stroke="#26343B" stroke-width="1.5"/>
+    <rect x="474" y="166" width="188" height="188" rx="12" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+
+    <rect x="58" y="362" width="188" height="188" rx="12" fill="#0F2028" stroke="#26343B" stroke-width="1.5"/>
+    <rect x="266" y="362" width="188" height="188" rx="12" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+    <rect x="474" y="362" width="188" height="188" rx="12" fill="#0F2028" stroke="#26343B" stroke-width="1.5"/>
+
+    <!-- subtle editable content accents -->
+    <path d="M58 330h188" stroke="#087C96" stroke-width="2" opacity=".55"/>
+    <path d="M474 526h188" stroke="#7D0414" stroke-width="2" opacity=".5"/>
+  </g>
+
+  <!-- Divider -->
+  <line x1="58" y1="577" x2="662" y2="575" stroke="#26343B" stroke-width="2"/>
+
+  <!-- Metrics -->
+  <g font-family="Open Sans, Arial, sans-serif">
+    <text x="151" y="622" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">45.2K</text>
+    <text x="151" y="647" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">REACH</text>
+
+    <text x="360" y="622" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">9.8K</text>
+    <text x="360" y="647" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">FOLLOWERS</text>
+
+    <text x="569" y="622" text-anchor="middle" fill="#00B0D5" font-size="30" font-weight="700">7.4%</text>
+    <text x="569" y="647" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">ENG. RATE</text>
+  </g>
+
+
+  <!-- CTA buttons -->
+  <rect x="58" y="674" width="292" height="58" rx="13" fill="url(#buttonAccent)"/>
+  <text x="204" y="711" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="700">Follow</text>
+
+  <rect x="370" y="674" width="292" height="58" rx="13" fill="#101A20" stroke="#293940" stroke-width="2"/>
+  <text x="516" y="711" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="600">Message</text>
+
+  <circle cx="632" cy="744" r="5" fill="#7D0414"/>
+  <circle cx="648" cy="744" r="5" fill="#00B0D5"/>
+</svg>

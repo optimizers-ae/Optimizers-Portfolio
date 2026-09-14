@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <defs>
+    <linearGradient id="emailAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#49A7D2"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <linearGradient id="buttonAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <radialGradient id="burgundyGlow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main editable card -->
+  <rect x="28" y="28" width="664" height="664" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="650" rx="300" ry="190" fill="url(#burgundyGlow)"/>
+
+  <!-- Header -->
+  <circle cx="91" cy="103" r="34" fill="url(#emailAccent)"/>
+  <g transform="translate(72 84) scale(1.58)" fill="#FFFFFF">
+    <path fill="currentColor" d="M4.616 19q-.691 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h14.77q.69 0 1.152.463T21 6.616v10.769q0 .69-.463 1.153T19.385 19zM20 6.885l-7.552 4.944q-.106.055-.214.093q-.109.037-.234.037t-.234-.037t-.214-.093L4 6.884v10.5q0 .27.173.443t.443.173h14.769q.269 0 .442-.173t.173-.443zM12 11l7.692-5H4.308zM4 6.885v.211v-.811v.034V6v.32v-.052v.828zV18z" />
+  </g>
+
+  <text x="143" y="101" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="25" font-weight="700">Your Business</text>
+  <text x="143" y="128" fill="#93A1A8" font-family="Open Sans, Arial, sans-serif" font-size="17">hello@yourbusiness.ae</text>
+
+  <!-- Active email row -->
+  <rect x="58" y="166" width="604" height="76" rx="16" fill="#0D1A21" stroke="#00B0D5" stroke-width="2"/>
+  <circle cx="91" cy="204" r="7" fill="#49A7D2"/>
+  <rect x="118" y="190" width="380" height="9" rx="4.5" fill="#142936"/>
+  <rect x="118" y="190" width="300" height="9" rx="4.5" fill="#F7F7F5"/>
+  <rect x="118" y="213" width="260" height="8" rx="4" fill="#49A7D2"/>
+  <text x="627" y="211" text-anchor="end" fill="#49A7D2" font-family="Open Sans, Arial, sans-serif" font-size="14" font-weight="700">98%</text>
+
+  <!-- Secondary email rows -->
+  <rect x="58" y="261" width="604" height="70" rx="16" fill="#0A1116" stroke="#26343B" stroke-width="1.5"/>
+  <circle cx="91" cy="296" r="7" fill="#26343B"/>
+  <rect x="118" y="282" width="350" height="8" rx="4" fill="#26343B"/>
+  <rect x="118" y="303" width="250" height="8" rx="4" fill="#1C2A31"/>
+
+  <rect x="58" y="350" width="604" height="70" rx="16" fill="#0A1116" stroke="#1C2A31" stroke-width="1.5"/>
+  <circle cx="91" cy="385" r="7" fill="#1C2A31"/>
+  <rect x="118" y="371" width="290" height="8" rx="4" fill="#1C2A31"/>
+  <rect x="118" y="392" width="205" height="8" rx="4" fill="#142229"/>
+
+  <!-- Divider -->
+  <line x1="58" y1="447" x2="662" y2="447" stroke="#26343B" stroke-width="2"/>
+
+  <!-- Metrics -->
+  <g font-family="Open Sans, Arial, sans-serif">
+    <text x="151" y="499" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">98%</text>
+    <text x="151" y="524" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">DELIVERY RATE</text>
+
+    <text x="360" y="499" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">42%</text>
+    <text x="360" y="524" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">OPEN RATE</text>
+
+    <text x="569" y="499" text-anchor="middle" fill="#49A7D2" font-size="30" font-weight="700">12%</text>
+    <text x="569" y="524" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">CLICK RATE</text>
+  </g>
+
+  <!-- Buttons -->
+  <rect x="58" y="558" width="292" height="70" rx="13" fill="url(#buttonAccent)"/>
+  <text x="204" y="601" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="700">Subscribe</text>
+
+  <rect x="370" y="558" width="292" height="70" rx="13" fill="#101A20" stroke="#293940" stroke-width="2"/>
+  <text x="516" y="601" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="600">View Sample</text>
+
+  <circle cx="632" cy="654" r="5" fill="#7D0414"/>
+  <circle cx="648" cy="654" r="5" fill="#00B0D5"/>
+</svg>

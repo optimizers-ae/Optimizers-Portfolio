@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#087C96"/>
+      <stop offset="1" stop-color="#00B0D5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main Optimizers dark-theme card -->
+  <rect x="28" y="28" width="664" height="704" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="690" rx="300" ry="190" fill="url(#glow)"/>
+
+  <!-- Header -->
+  <rect x="58" y="62" width="68" height="68" rx="13" fill="url(#accent)"/>
+  <g transform="translate(75 79) scale(1.45)" fill="#FFFFFF">
+    <path d="M18.208 6.785c-.733.676-1.654 1.224-2.697 1.606s-2.187.59-3.348.608a10.4 10.4 0 0 1-3.378-.505c-1.064-.35-2.013-.87-2.782-1.523m12.319 10.353c-.74-.716-1.685-1.297-2.767-1.699A10.2 10.2 0 0 0 12.078 15a10.3 10.3 0 0 0-3.492.574c-1.092.386-2.053.953-2.811 1.657M12 4v16m8-8H4"/>
+  </g>
+  <text x="145" y="105" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="25" font-weight="700">Global Reach Map</text>
+
+  <!-- World map panel -->
+  <rect x="58" y="158" width="604" height="250" rx="22" fill="#0F1A2A" stroke="#26343B" stroke-width="1.5"/>
+
+  <!-- Globe -->
+  <g fill="none" stroke="#23435B" stroke-width="2.5" opacity=".9">
+    <ellipse cx="360" cy="283" rx="185" ry="105"/>
+    <ellipse cx="360" cy="283" rx="115" ry="105"/>
+    <ellipse cx="360" cy="283" rx="48" ry="105"/>
+    <path d="M175 283h370"/>
+    <path d="M193 222h334"/>
+    <path d="M193 344h334"/>
+  </g>
+
+  <!-- Location points -->
+  <g>
+    <circle cx="255" cy="244" r="15" fill="#087C96" opacity=".45"/>
+    <circle cx="255" cy="244" r="7" fill="#49A7D2"/>
+    <circle cx="410" cy="225" r="15" fill="#087C96" opacity=".45"/>
+    <circle cx="410" cy="225" r="7" fill="#49A7D2"/>
+    <circle cx="305" cy="337" r="15" fill="#087C96" opacity=".45"/>
+    <circle cx="305" cy="337" r="7" fill="#49A7D2"/>
+    <circle cx="478" cy="302" r="15" fill="#087C96" opacity=".45"/>
+    <circle cx="478" cy="302" r="7" fill="#49A7D2"/>
+  </g>
+
+  <!-- Region rows -->
+  <g font-family="Open Sans,Arial,sans-serif">
+    <rect x="58" y="430" width="604" height="58" rx="15" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+    <text x="84" y="466" fill="#F7F7F5" font-size="17">🇦🇪 UAE — Arabic/English</text>
+    <circle cx="622" cy="459" r="11" fill="#25B878"/>
+
+    <rect x="58" y="501" width="604" height="58" rx="15" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+    <text x="84" y="537" fill="#F7F7F5" font-size="17">🇬🇧 UK — English</text>
+    <circle cx="622" cy="530" r="11" fill="#25B878"/>
+
+    <rect x="58" y="572" width="604" height="58" rx="15" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+    <text x="84" y="608" fill="#F7F7F5" font-size="17">🇸🇦 Saudi Arabia — Arabic</text>
+    <circle cx="622" cy="601" r="11" fill="#25B878"/>
+  </g>
+
+  <!-- Tags -->
+  <g font-family="Open Sans,Arial,sans-serif" font-size="14" font-weight="600">
+    <rect x="78" y="653" width="154" height="42" rx="21" fill="#0D2730" stroke="#26343B"/>
+    <text x="155" y="679" text-anchor="middle" fill="#49A7D2">Hreflang Setup</text>
+
+    <rect x="243" y="653" width="150" height="42" rx="21" fill="#0D2730" stroke="#26343B"/>
+    <text x="318" y="679" text-anchor="middle" fill="#49A7D2">Multi-Region</text>
+
+    <rect x="404" y="653" width="146" height="42" rx="21" fill="#0D2730" stroke="#26343B"/>
+    <text x="477" y="679" text-anchor="middle" fill="#49A7D2">Local Search</text>
+  </g>
+
+  <circle cx="632" cy="699" r="5" fill="#7D0414"/>
+  <circle cx="650" cy="699" r="5" fill="#00B0D5"/>
+</svg>

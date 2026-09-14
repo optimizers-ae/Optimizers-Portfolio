@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#087C96"/><stop offset="1" stop-color="#00B0D5"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="1" cy="1" r="1">
+    <stop offset="0" stop-color="#7D0414" stop-opacity=".30"/><stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<rect x="28" y="28" width="664" height="704" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+<ellipse cx="650" cy="690" rx="300" ry="190" fill="url(#glow)"/>
+
+<!-- Header icon -->
+<rect x="58" y="62" width="68" height="68" rx="13" fill="url(#accent)"/>
+<g fill="none" stroke="#F7F7F5" stroke-width="4" stroke-linecap="round">
+  <path d="M78 83h27M78 96h20M78 109h14"/>
+</g>
+<text x="145" y="105" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="25" font-weight="700">Topic Cluster Map</text>
+
+<!-- Topic network -->
+<rect x="58" y="158" width="604" height="250" rx="22" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+
+<!-- Connecting lines -->
+<g stroke="#087C96" stroke-width="3" opacity=".55">
+  <line x1="360" y1="275" x2="151" y2="208"/>
+  <line x1="360" y1="275" x2="569" y2="208"/>
+  <line x1="360" y1="275" x2="145" y2="329"/>
+  <line x1="360" y1="275" x2="575" y2="329"/>
+</g>
+
+<!-- Core topic -->
+<circle cx="360" cy="275" r="66" fill="#0F1A2A" stroke="#26343B" stroke-width="2"/>
+<circle cx="360" cy="275" r="57" fill="#0D1827"/>
+<text x="360" y="281" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="17" font-weight="700">Core Topic</text>
+
+<!-- Entities -->
+<g font-family="Open Sans,Arial,sans-serif" font-size="16">
+  <rect x="80" y="178" width="142" height="54" rx="27" fill="#101A20" stroke="#00B0D5" stroke-width="1.5"/>
+  <text x="151" y="211" text-anchor="middle" fill="#49A7D2">Entity A</text>
+
+  <rect x="498" y="178" width="142" height="54" rx="27" fill="#101A20" stroke="#00B0D5" stroke-width="1.5"/>
+  <text x="569" y="211" text-anchor="middle" fill="#49A7D2">Entity B</text>
+
+  <rect x="58" y="299" width="175" height="54" rx="27" fill="#101A20" stroke="#00B0D5" stroke-width="1.5"/>
+  <text x="145.5" y="332" text-anchor="middle" fill="#49A7D2">Related Q&amp;A</text>
+
+  <rect x="487" y="299" width="176" height="54" rx="27" fill="#101A20" stroke="#00B0D5" stroke-width="1.5"/>
+  <text x="575" y="332" text-anchor="middle" fill="#49A7D2">Sub-Topic</text>
+</g>
+
+<!-- Content / semantic signals -->
+<rect x="58" y="436" width="604" height="126" rx="20" fill="#101A20" stroke="#26343B" stroke-width="1.5"/>
+<rect x="82" y="466" width="556" height="11" rx="5.5" fill="#34444C"/>
+<rect x="82" y="492" width="528" height="11" rx="5.5" fill="#26343B"/>
+<rect x="82" y="518" width="430" height="11" rx="5.5" fill="#00B0D5"/>
+
+<!-- Tags -->
+<g font-family="Open Sans,Arial,sans-serif" font-size="14" font-weight="600">
+  <rect x="78" y="596" width="154" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+  <text x="155" y="624" text-anchor="middle" fill="#49A7D2">Entity-Rich</text>
+
+  <rect x="245" y="596" width="171" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+  <text x="330.5" y="624" text-anchor="middle" fill="#49A7D2">Context-Aware</text>
+
+  <rect x="429" y="596" width="175" height="44" rx="22" fill="#0D2730" stroke="#26343B"/>
+  <text x="516.5" y="624" text-anchor="middle" fill="#49A7D2">Topic Clusters</text>
+</g>
+
+<circle cx="632" cy="690" r="5" fill="#7D0414"/>
+<circle cx="650" cy="690" r="5" fill="#00B0D5"/>
+</svg>

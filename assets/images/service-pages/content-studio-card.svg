@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="413" height="555" viewBox="0 0 413 555" role="img" aria-labelledby="title desc">
+  <title id="title">Optimizers Content Studio card</title>
+  <desc id="desc">A dark Optimizers-themed content production dashboard with shoot stages, editing timeline, performance statistics, and call-to-action buttons.</desc>
+
+  <defs>
+    <linearGradient id="cardBackground" x1="20" y1="0" x2="393" y2="555" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#060A0D"/>
+      <stop offset="0.58" stop-color="#0A1116"/>
+      <stop offset="1" stop-color="#081016"/>
+    </linearGradient>
+    <radialGradient id="redGlow" cx="0" cy="0" r="1" gradientTransform="translate(28 488) rotate(-41) scale(260 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7D0414" stop-opacity="0.58"/>
+      <stop offset="0.45" stop-color="#7D0414" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientTransform="translate(403 54) rotate(140) scale(190 170)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00B0D5" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#00B0D5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="studioGradient" x1="36" y1="31" x2="78" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00B0D5"/>
+      <stop offset="0.55" stop-color="#067C98"/>
+      <stop offset="1" stop-color="#7D0414"/>
+    </linearGradient>
+    <linearGradient id="stageOne" x1="31" y1="103" x2="143" y2="279" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1B23"/>
+      <stop offset="1" stop-color="#071219"/>
+    </linearGradient>
+    <linearGradient id="stageTwo" x1="151" y1="103" x2="264" y2="279" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15171D"/>
+      <stop offset="1" stop-color="#200B11"/>
+    </linearGradient>
+    <filter id="cyanGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip"><rect x="0.5" y="0.5" width="412" height="554" rx="18"/></clipPath>
+    <style>
+      .font { font-family: "Open Sans", Arial, Helvetica, sans-serif; }
+      .white { fill: #F7F7F5; }
+      .muted { fill: #93A1A8; }
+      .cyan { fill: #00B0D5; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="0.5" y="0.5" width="412" height="554" rx="18" fill="url(#cardBackground)"/>
+    <rect x="0.5" y="0.5" width="412" height="554" rx="18" fill="url(#redGlow)"/>
+    <rect x="0.5" y="0.5" width="412" height="554" rx="18" fill="url(#blueGlow)"/>
+    <path d="M0 444C92 411 172 454 219 555H0V444Z" fill="#7D0414" opacity="0.08"/>
+    <path d="M327 0H413V118C382 93 356 55 327 0Z" fill="#00B0D5" opacity="0.035"/>
+  </g>
+  <rect x="0.5" y="0.5" width="412" height="554" rx="18" fill="none" stroke="#26343B"/>
+
+  <!-- Header icon -->
+  <circle cx="57" cy="55" r="27" fill="url(#studioGradient)"/>
+  <circle cx="57" cy="55" r="22.5" fill="none" stroke="#8BE5F3" stroke-opacity="0.28"/>
+  <rect x="47.8" y="46.4" width="18.4" height="16.5" rx="2.4" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+  <path d="M54.2 50.6L61.2 54.7L54.2 58.8Z" fill="#FFFFFF"/>
+
+  <!-- Header copy -->
+  <text class="font white" x="98" y="50" font-size="19" font-weight="700">Content Studio</text>
+  <text class="font muted" x="99" y="72" font-size="14.5">Scripting → Shoot → Edit</text>
+
+  <!-- Content stages -->
+  <rect x="31" y="103" width="112.5" height="176" rx="10" fill="url(#stageOne)" stroke="#26343B"/>
+  <rect x="151" y="103" width="113" height="176" rx="10" fill="url(#stageTwo)" stroke="#3A252B"/>
+  <rect x="271" y="103" width="113" height="176" rx="10" fill="url(#stageOne)" stroke="#26343B"/>
+  <path d="M32 237C70 213 106 211 143 227V279H32V237Z" fill="#00B0D5" opacity="0.025"/>
+  <path d="M152 214C190 183 224 187 263 207V279H152V214Z" fill="#7D0414" opacity="0.13"/>
+  <path d="M272 231C310 205 346 211 383 226V279H272V231Z" fill="#00B0D5" opacity="0.025"/>
+  <g class="font" fill="#FFFFFF" font-size="9" font-weight="700">
+    <rect x="37" y="110" width="36" height="18" rx="5" fill="#00B0D5"/>
+    <text x="55" y="122.4" text-anchor="middle">HOOK</text>
+    <rect x="157" y="110" width="43" height="18" rx="5" fill="#7D0414"/>
+    <text x="178.5" y="122.4" text-anchor="middle">B-ROLL</text>
+    <rect x="277" y="110" width="30" height="18" rx="5" fill="#00B0D5"/>
+    <text x="292" y="122.4" text-anchor="middle">CTA</text>
+  </g>
+  <circle cx="369" cy="263" r="11" fill="#00B0D5" opacity="0.12"/>
+  <path d="M366 257.5L374 263L366 268.5Z" fill="#FFFFFF"/>
+
+  <!-- Editing timeline -->
+  <rect x="31" y="296" width="353" height="74" rx="12" fill="#0C171D" stroke="#26343B"/>
+  <text class="font" x="49" y="324.5" font-size="13" font-weight="500" fill="#B9C2C6">Editing Timeline</text>
+  <text class="font cyan" x="366" y="324.5" text-anchor="end" font-size="13" font-weight="700">00:28</text>
+  <rect x="49" y="337" width="72" height="18" rx="4" fill="#00B0D5"/>
+  <rect x="124" y="337" width="110" height="18" rx="4" fill="#7D0414"/>
+  <rect x="237" y="337" width="55" height="18" rx="4" fill="#087B95"/>
+  <rect x="295" y="337" width="71" height="18" rx="4" fill="#25343B"/>
+  <rect x="49" y="337" width="72" height="2" rx="1" fill="#71E6F7" opacity="0.8"/>
+
+  <path d="M31 391.5H384" stroke="#2A373D"/>
+
+  <!-- Statistics -->
+  <g class="font">
+    <text class="white" x="31" y="433" font-size="24" font-weight="600">1.2M</text>
+    <text class="white" x="192" y="433" text-anchor="middle" font-size="24" font-weight="600">40+</text>
+    <text class="cyan" x="358" y="433" text-anchor="end" font-size="24" font-weight="700">3s</text>
+    <text class="muted" x="32" y="456" font-size="12.5">VIEWS</text>
+    <text class="muted" x="192" y="456" text-anchor="middle" font-size="12.5">REELS/MONTH</text>
+    <text class="muted" x="383" y="456" text-anchor="end" font-size="12.5">HOOK RATE</text>
+  </g>
+
+  <!-- Buttons -->
+  <rect x="31" y="480" width="172" height="48" rx="24" fill="#F7F7F5"/>
+  <rect x="212" y="480" width="172" height="48" rx="24" fill="#0A1116" stroke="#66747A"/>
+  <g class="font" font-size="14.5" font-weight="700">
+    <text x="107" y="509.5" text-anchor="middle" fill="#060A0D">Book a Shoot</text>
+    <text x="183" y="509.5" text-anchor="middle" fill="#060A0D">→</text>
+    <text x="288" y="509.5" text-anchor="middle" fill="#F7F7F5">See Portfolio</text>
+    <text x="364" y="509.5" text-anchor="middle" fill="#00B0D5">↗</text>
+  </g>
+  <circle cx="57" cy="55" r="2.2" fill="#FFFFFF" filter="url(#cyanGlow)"/>
+</svg>

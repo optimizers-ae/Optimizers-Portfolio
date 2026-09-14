@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+  <defs>
+    <linearGradient id="snapAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFC00"/>
+      <stop offset="1" stop-color="#F5E900"/>
+    </linearGradient>
+    <linearGradient id="buttonAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFC00"/>
+      <stop offset="1" stop-color="#F5E900"/>
+    </linearGradient>
+    <radialGradient id="burgundyGlow" cx="1" cy="1" r="1">
+      <stop offset="0" stop-color="#7D0414" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#7D0414" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main editable card -->
+  <rect x="28" y="28" width="664" height="704" rx="34" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+  <ellipse cx="650" cy="690" rx="300" ry="190" fill="url(#burgundyGlow)"/>
+
+  <!-- Snapchat icon supplied by user, editable vector -->
+  <circle cx="91" cy="103" r="34" fill="url(#snapAccent)"/>
+  <g transform="translate(73 85) scale(1.5)" fill="#060A0D">
+    <path d="M21.07 16.17c-.34-.93-2.4-1.06-3.36-3.19c-.06-.16-.05-.27.11-.37c.74-.49 1.26-.76 1.56-1.33c.22-.41.25-.89.08-1.33c-.23-.61-.81-1-1.52-1c-.25 0-.45.05-.55.07c.01-.42 0-.86-.04-1.3c-.13-1.53-.67-2.34-1.23-2.98C15.79 4.37 14.48 3 12 3S8.21 4.37 7.88 4.74c-.56.64-1.1 1.45-1.23 2.98c-.03.44-.04.88-.04 1.3c-.11-.03-.3-.07-.55-.07c-.7 0-1.29.38-1.52 1c-.17.43-.14.92.08 1.33c.31.58.82.84 1.56 1.33c.16.11.17.21.11.37c-.97 2.13-3.02 2.26-3.36 3.19c-.15.4-.05.85.32 1.23c.57.59 1.63.77 1.84.91c.17.14.15.56.63.9c.38.26.8.28 1.25.29c1.31.05 1.6.27 2.1.58c.63.39 1.49.92 2.93.92s2.3-.53 2.93-.92c.5-.31.79-.53 2.1-.58c.45-.02.87-.03 1.25-.29c.49-.34.47-.76.63-.9c.21-.14 1.27-.32 1.84-.91c.37-.38.47-.83.32-1.23m-1.03.53c-.37.39-1.26.5-1.73.82c-.48.42-.4.74-.59.87c-.13.09-.36.1-.72.12c-1.4.05-1.91.31-2.52.69c-1.43.88-2.23.8-2.48.8s-1.05.08-2.47-.81c-.61-.38-1.11-.63-2.52-.69c-.36-.01-.59-.03-.72-.12c-.19-.13-.12-.45-.59-.87c-.48-.32-1.36-.43-1.73-.82c-.06-.06-.11-.14-.12-.15c.07-.1.41-.3.66-.44c.78-.46 1.98-1.14 2.71-2.75c.26-.7.03-1.26-.48-1.59c-1.15-.73-1.13-.76-1.24-.96a.62.62 0 0 1-.03-.5c.12-.32.45-.35.58-.35c.19 0 .18.01 1.57.37c-.02-1.4-.04-1.85.02-2.51c.11-1.31.57-1.93.98-2.4C8.9 5.11 9.99 3.98 12 4c2.01-.02 3.1 1.11 3.37 1.41c.41.47.87 1.09.98 2.4c.06.66.04 1.11.02 2.51c1.4-.36 1.38-.37 1.57-.37c.14 0 .46.03.58.35c.07.17.06.35-.03.5c-.11.2-.09.22-1.23.97c-.51.33-.74.89-.48 1.59c.73 1.61 1.93 2.29 2.71 2.75c.25.15.59.34.66.44c0 .01-.06.09-.11.15"/>
+  </g>
+
+  <text x="143" y="101" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="25" font-weight="700">yourbusiness</text>
+  <text x="143" y="128" fill="#93A1A8" font-family="Open Sans, Arial, sans-serif" font-size="17">snapchat.com/add/yourbusiness</text>
+
+  <!-- Story / content grid -->
+  <g>
+    <rect x="58" y="166" width="188" height="250" rx="18" fill="#0D1A21" stroke="#00B0D5" stroke-width="1.5"/>
+    <rect x="266" y="166" width="188" height="250" rx="18" fill="#0F2028" stroke="#26343B" stroke-width="1.5"/>
+    <rect x="474" y="166" width="188" height="250" rx="18" fill="#0D1A21" stroke="#26343B" stroke-width="1.5"/>
+
+    <!-- Story indicators -->
+    <rect x="75" y="184" width="154" height="8" rx="4" fill="#087C96"/>
+    <rect x="283" y="184" width="154" height="8" rx="4" fill="#26343B"/>
+    <rect x="491" y="184" width="154" height="8" rx="4" fill="#26343B"/>
+
+    <!-- Subtle story accents -->
+    <circle cx="91" cy="391" r="6" fill="#00B0D5"/>
+    <circle cx="299" cy="391" r="6" fill="#26343B"/>
+    <circle cx="507" cy="391" r="6" fill="#7D0414"/>
+  </g>
+
+  <!-- Divider -->
+  <line x1="58" y1="444" x2="662" y2="444" stroke="#26343B" stroke-width="2"/>
+
+  <!-- Metrics -->
+  <g font-family="Open Sans, Arial, sans-serif">
+    <text x="151" y="494" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">28K</text>
+    <text x="151" y="519" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">VIEWS</text>
+
+    <text x="360" y="494" text-anchor="middle" fill="#F7F7F5" font-size="30" font-weight="700">6.1K</text>
+    <text x="360" y="519" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">SUBSCRIBERS</text>
+
+    <text x="569" y="494" text-anchor="middle" fill="#00B0D5" font-size="30" font-weight="700">5.8%</text>
+    <text x="569" y="519" text-anchor="middle" fill="#93A1A8" font-size="14" letter-spacing=".4">ENG. RATE</text>
+  </g>
+
+  <!-- CTA buttons -->
+  <rect x="58" y="558" width="292" height="70" rx="13" fill="url(#buttonAccent)"/>
+  <text x="204" y="601" text-anchor="middle" fill="#060A0D" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="700">Add Me</text>
+
+  <rect x="370" y="558" width="292" height="70" rx="13" fill="#101A20" stroke="#293940" stroke-width="2"/>
+  <text x="516" y="601" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="600">Message</text>
+
+  <!-- Subtle Optimizers accent -->
+  <circle cx="632" cy="690" r="5" fill="#7D0414"/>
+  <circle cx="648" cy="690" r="5" fill="#00B0D5"/>
+</svg>

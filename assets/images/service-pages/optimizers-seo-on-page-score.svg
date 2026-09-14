@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500">
+<defs>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#087C96"/><stop offset="1" stop-color="#00B0D5"/></linearGradient>
+<radialGradient id="g" cx="1" cy="1" r="1"><stop offset="0" stop-color="#7D0414" stop-opacity=".25"/><stop offset="1" stop-color="#7D0414" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="10" y="10" width="700" height="480" rx="26" fill="#060A0D" stroke="#26343B" stroke-width="2"/>
+<ellipse cx="650" cy="470" rx="260" ry="130" fill="url(#g)"/>
+<circle cx="43" cy="45" r="6" fill="#34444C"/><circle cx="75" cy="45" r="6" fill="#34444C"/><circle cx="107" cy="45" r="6" fill="#34444C"/>
+<text x="43" y="108" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="18">yourbusiness.ae/services</text>
+
+<circle cx="105" cy="210" r="56" fill="#0D1A21" stroke="#26343B" stroke-width="12"/>
+<circle cx="105" cy="210" r="56" fill="none" stroke="url(#a)" stroke-width="12" stroke-linecap="round" stroke-dasharray="285 67" transform="rotate(-90 105 210)"/>
+<text x="105" y="205" text-anchor="middle" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="32" font-weight="700">92</text>
+<text x="105" y="229" text-anchor="middle" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="15">/ 100</text>
+
+<text x="170" y="178" fill="#F7F7F5" font-family="Open Sans,Arial,sans-serif" font-size="23" font-weight="700">On-Page Score</text>
+<text x="170" y="216" fill="#93A1A8" font-family="Open Sans,Arial,sans-serif" font-size="18">After optimization</text>
+
+<g font-family="Open Sans,Arial,sans-serif" font-size="18">
+<text x="43" y="294" fill="#F7F7F5">Title Tag</text><rect x="210" y="282" width="395" height="12" rx="6" fill="#142229"/><rect x="210" y="282" width="372" height="12" rx="6" fill="#34444C"/><text x="617" y="295" fill="#00B0D5" font-size="17" font-weight="700">94%</text>
+<text x="43" y="326" fill="#F7F7F5">Headers</text><rect x="210" y="314" width="395" height="12" rx="6" fill="#142229"/><rect x="210" y="314" width="348" height="12" rx="6" fill="#34444C"/><text x="617" y="327" fill="#00B0D5" font-size="17" font-weight="700">88%</text>
+<text x="43" y="358" fill="#F7F7F5">Internal Links</text><rect x="210" y="346" width="395" height="12" rx="6" fill="#142229"/><rect x="210" y="346" width="320" height="12" rx="6" fill="#34444C"/><text x="617" y="359" fill="#00B0D5" font-size="17" font-weight="700">81%</text>
+</g>
+<circle cx="653" cy="438" r="5" fill="#7D0414"/><circle cx="671" cy="438" r="5" fill="#00B0D5"/>
+</svg>
